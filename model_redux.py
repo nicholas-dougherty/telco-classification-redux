@@ -690,9 +690,8 @@ def test_model_(train,
     
     features = []
 
-    max_depth = 
-    min_samples_leaf = 
-    
+    # insert applicable parameters and hyperparameters
+    # for example
     # establish a random forest classifier
     clf = RandomForestClassifier(max_depth=max_depth, 
                                  min_samples_leaf=min_samples_leaf,
